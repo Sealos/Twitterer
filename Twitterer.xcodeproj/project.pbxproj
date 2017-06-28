@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3AD1B01F03CF9800AD1043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1AF1F03CF9800AD1043 /* AppDelegate.swift */; };
+		3A3AD1B51F03CF9800AD1043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3AD1B31F03CF9800AD1043 /* Main.storyboard */; };
+		3A3AD1B71F03CF9800AD1043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3AD1B61F03CF9800AD1043 /* Assets.xcassets */; };
+		3A3AD1BA1F03CF9800AD1043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3AD1B81F03CF9800AD1043 /* LaunchScreen.storyboard */; };
+		3A3AD1C51F03CF9800AD1043 /* FixedSizeQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1C41F03CF9800AD1043 /* FixedSizeQueueTests.swift */; };
+		3A3AD1D01F03CF9800AD1043 /* LatestTweetsTableViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1CF1F03CF9800AD1043 /* LatestTweetsTableViewControllerUITests.swift */; };
+		3A3AD1DE1F03D06E00AD1043 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1DD1F03D06E00AD1043 /* Constants.swift */; };
+		3A3AD2081F03D2E000AD1043 /* Data++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E21F03D2E000AD1043 /* Data++.swift */; };
+		3A3AD2091F03D2E000AD1043 /* Dictionary++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E31F03D2E000AD1043 /* Dictionary++.swift */; };
+		3A3AD20A1F03D2E000AD1043 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E41F03D2E000AD1043 /* HMAC.swift */; };
+		3A3AD20B1F03D2E000AD1043 /* Int++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E51F03D2E000AD1043 /* Int++.swift */; };
+		3A3AD20C1F03D2E000AD1043 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E61F03D2E000AD1043 /* JSON.swift */; };
+		3A3AD20D1F03D2E000AD1043 /* Operator++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E71F03D2E000AD1043 /* Operator++.swift */; };
+		3A3AD20E1F03D2E000AD1043 /* Scanner++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E81F03D2E000AD1043 /* Scanner++.swift */; };
+		3A3AD20F1F03D2E000AD1043 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E91F03D2E000AD1043 /* SHA1.swift */; };
+		3A3AD2101F03D2E000AD1043 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1EA1F03D2E000AD1043 /* String++.swift */; };
+		3A3AD2111F03D2E000AD1043 /* Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1EC1F03D2E000AD1043 /* Swifter.swift */; };
+		3A3AD2121F03D2E000AD1043 /* SwifterAccountsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1ED1F03D2E000AD1043 /* SwifterAccountsClient.swift */; };
+		3A3AD2131F03D2E000AD1043 /* SwifterAppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1EE1F03D2E000AD1043 /* SwifterAppOnlyClient.swift */; };
+		3A3AD2141F03D2E000AD1043 /* SwifterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1EF1F03D2E000AD1043 /* SwifterAuth.swift */; };
+		3A3AD2151F03D2E000AD1043 /* SwifterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F01F03D2E000AD1043 /* SwifterClientProtocol.swift */; };
+		3A3AD2161F03D2E000AD1043 /* SwifterCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F11F03D2E000AD1043 /* SwifterCredential.swift */; };
+		3A3AD2171F03D2E000AD1043 /* SwifterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F21F03D2E000AD1043 /* SwifterError.swift */; };
+		3A3AD2181F03D2E000AD1043 /* SwifterFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F31F03D2E000AD1043 /* SwifterFavorites.swift */; };
+		3A3AD2191F03D2E000AD1043 /* SwifterFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F41F03D2E000AD1043 /* SwifterFollowers.swift */; };
+		3A3AD21A1F03D2E000AD1043 /* SwifterHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F51F03D2E000AD1043 /* SwifterHelp.swift */; };
+		3A3AD21B1F03D2E000AD1043 /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F61F03D2E000AD1043 /* SwifterHTTPRequest.swift */; };
+		3A3AD21C1F03D2E000AD1043 /* SwifterLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F71F03D2E000AD1043 /* SwifterLists.swift */; };
+		3A3AD21D1F03D2E000AD1043 /* SwifterMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F81F03D2E000AD1043 /* SwifterMessages.swift */; };
+		3A3AD21E1F03D2E000AD1043 /* SwifterOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F91F03D2E000AD1043 /* SwifterOAuthClient.swift */; };
+		3A3AD21F1F03D2E000AD1043 /* SwifterPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FA1F03D2E000AD1043 /* SwifterPlaces.swift */; };
+		3A3AD2201F03D2E000AD1043 /* SwifterSavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FB1F03D2E000AD1043 /* SwifterSavedSearches.swift */; };
+		3A3AD2211F03D2E000AD1043 /* SwifterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FC1F03D2E000AD1043 /* SwifterSearch.swift */; };
+		3A3AD2221F03D2E000AD1043 /* SwifterSpam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FD1F03D2E000AD1043 /* SwifterSpam.swift */; };
+		3A3AD2231F03D2E000AD1043 /* SwifterStreaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FE1F03D2E000AD1043 /* SwifterStreaming.swift */; };
+		3A3AD2241F03D2E000AD1043 /* SwifterSuggested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FF1F03D2E000AD1043 /* SwifterSuggested.swift */; };
+		3A3AD2251F03D2E000AD1043 /* SwifterTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2001F03D2E000AD1043 /* SwifterTag.swift */; };
+		3A3AD2261F03D2E000AD1043 /* SwifterTimelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2011F03D2E000AD1043 /* SwifterTimelines.swift */; };
+		3A3AD2271F03D2E000AD1043 /* SwifterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2021F03D2E000AD1043 /* SwifterTrends.swift */; };
+		3A3AD2281F03D2E000AD1043 /* SwifterTweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2031F03D2E000AD1043 /* SwifterTweets.swift */; };
+		3A3AD2291F03D2E000AD1043 /* SwifterUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2041F03D2E000AD1043 /* SwifterUsers.swift */; };
+		3A3AD22A1F03D2E000AD1043 /* URL++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2051F03D2E000AD1043 /* URL++.swift */; };
+		3A3AD22B1F03D2E000AD1043 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2061F03D2E000AD1043 /* Utils.swift */; };
+		3A4D11AF1F04371700632F8B /* TwitterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D11AE1F04371700632F8B /* TwitterService.swift */; };
+		3A55567D1F03F59F00A81EDE /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55567C1F03F59F00A81EDE /* UITableView.swift */; };
+		3A55567F1F03F5D700A81EDE /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55567E1F03F5D700A81EDE /* NibLoadable.swift */; };
+		3A5556841F03F68000A81EDE /* LatestTweetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5556831F03F68000A81EDE /* LatestTweetsTableViewController.swift */; };
+		3A5556861F03F6BE00A81EDE /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5556851F03F6BE00A81EDE /* TweetTableViewCell.swift */; };
+		3A9C77F11F045D5200AA02BE /* LatestTweetHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C77F01F045D5200AA02BE /* LatestTweetHeader.swift */; };
+		3A9C77F51F0461E900AA02BE /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C77F41F0461E900AA02BE /* Queue.swift */; };
+		3A9C77F61F04660000AA02BE /* LatestTweetHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9C77F21F045D5C00AA02BE /* LatestTweetHeader.xib */; };
+		3AB755121F05728900DC6E13 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55567C1F03F59F00A81EDE /* UITableView.swift */; };
+		3AB755131F05728900DC6E13 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55567E1F03F5D700A81EDE /* NibLoadable.swift */; };
+		3AB755141F05728C00DC6E13 /* FixedSizeQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACB28671F03E0C300CE066D /* FixedSizeQueue.swift */; };
+		3AB755151F05728C00DC6E13 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C77F41F0461E900AA02BE /* Queue.swift */; };
+		3AB755161F05728C00DC6E13 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1DD1F03D06E00AD1043 /* Constants.swift */; };
+		3AB755171F05728C00DC6E13 /* TwitterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D11AE1F04371700632F8B /* TwitterService.swift */; };
+		3AB755181F05728C00DC6E13 /* TweetStreamingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA18C51F056EC900D15E8A /* TweetStreamingService.swift */; };
+		3AB755191F05728E00DC6E13 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACB28651F03E06300CE066D /* Tweet.swift */; };
+		3AB7551A1F05729800DC6E13 /* Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1EC1F03D2E000AD1043 /* Swifter.swift */; };
+		3AB7551B1F05729800DC6E13 /* SwifterAccountsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1ED1F03D2E000AD1043 /* SwifterAccountsClient.swift */; };
+		3AB7551C1F05729800DC6E13 /* SwifterAppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1EE1F03D2E000AD1043 /* SwifterAppOnlyClient.swift */; };
+		3AB7551D1F05729800DC6E13 /* SwifterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1EF1F03D2E000AD1043 /* SwifterAuth.swift */; };
+		3AB7551E1F05729800DC6E13 /* SwifterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F01F03D2E000AD1043 /* SwifterClientProtocol.swift */; };
+		3AB7551F1F05729800DC6E13 /* SwifterCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F11F03D2E000AD1043 /* SwifterCredential.swift */; };
+		3AB755201F05729800DC6E13 /* SwifterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F21F03D2E000AD1043 /* SwifterError.swift */; };
+		3AB755211F05729800DC6E13 /* SwifterFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F31F03D2E000AD1043 /* SwifterFavorites.swift */; };
+		3AB755221F05729800DC6E13 /* SwifterFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F41F03D2E000AD1043 /* SwifterFollowers.swift */; };
+		3AB755231F05729800DC6E13 /* SwifterHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F51F03D2E000AD1043 /* SwifterHelp.swift */; };
+		3AB755241F05729800DC6E13 /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F61F03D2E000AD1043 /* SwifterHTTPRequest.swift */; };
+		3AB755251F05729800DC6E13 /* SwifterLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F71F03D2E000AD1043 /* SwifterLists.swift */; };
+		3AB755261F05729800DC6E13 /* SwifterMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F81F03D2E000AD1043 /* SwifterMessages.swift */; };
+		3AB755271F05729800DC6E13 /* SwifterOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1F91F03D2E000AD1043 /* SwifterOAuthClient.swift */; };
+		3AB755281F05729800DC6E13 /* SwifterPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FA1F03D2E000AD1043 /* SwifterPlaces.swift */; };
+		3AB755291F05729800DC6E13 /* SwifterSavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FB1F03D2E000AD1043 /* SwifterSavedSearches.swift */; };
+		3AB7552A1F05729800DC6E13 /* SwifterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FC1F03D2E000AD1043 /* SwifterSearch.swift */; };
+		3AB7552B1F05729800DC6E13 /* SwifterSpam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FD1F03D2E000AD1043 /* SwifterSpam.swift */; };
+		3AB7552C1F05729800DC6E13 /* SwifterStreaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FE1F03D2E000AD1043 /* SwifterStreaming.swift */; };
+		3AB7552D1F05729800DC6E13 /* SwifterSuggested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1FF1F03D2E000AD1043 /* SwifterSuggested.swift */; };
+		3AB7552E1F05729800DC6E13 /* SwifterTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2001F03D2E000AD1043 /* SwifterTag.swift */; };
+		3AB7552F1F05729800DC6E13 /* SwifterTimelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2011F03D2E000AD1043 /* SwifterTimelines.swift */; };
+		3AB755301F05729800DC6E13 /* SwifterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2021F03D2E000AD1043 /* SwifterTrends.swift */; };
+		3AB755311F05729800DC6E13 /* SwifterTweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2031F03D2E000AD1043 /* SwifterTweets.swift */; };
+		3AB755321F05729800DC6E13 /* SwifterUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2041F03D2E000AD1043 /* SwifterUsers.swift */; };
+		3AB755331F05729800DC6E13 /* URL++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2051F03D2E000AD1043 /* URL++.swift */; };
+		3AB755341F05729800DC6E13 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD2061F03D2E000AD1043 /* Utils.swift */; };
+		3AB755351F05729B00DC6E13 /* Data++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E21F03D2E000AD1043 /* Data++.swift */; };
+		3AB755361F05729B00DC6E13 /* Dictionary++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E31F03D2E000AD1043 /* Dictionary++.swift */; };
+		3AB755371F05729B00DC6E13 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E41F03D2E000AD1043 /* HMAC.swift */; };
+		3AB755381F05729B00DC6E13 /* Int++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E51F03D2E000AD1043 /* Int++.swift */; };
+		3AB755391F05729B00DC6E13 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E61F03D2E000AD1043 /* JSON.swift */; };
+		3AB7553A1F05729B00DC6E13 /* Operator++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E71F03D2E000AD1043 /* Operator++.swift */; };
+		3AB7553B1F05729B00DC6E13 /* Scanner++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E81F03D2E000AD1043 /* Scanner++.swift */; };
+		3AB7553C1F05729B00DC6E13 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1E91F03D2E000AD1043 /* SHA1.swift */; };
+		3AB7553D1F05729B00DC6E13 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1EA1F03D2E000AD1043 /* String++.swift */; };
+		3AB7553E1F0572A200DC6E13 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5556851F03F6BE00A81EDE /* TweetTableViewCell.swift */; };
+		3AB7553F1F0572A200DC6E13 /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9DF251F03F80600999AFF /* TweetTableViewCell.xib */; };
+		3AB755401F0572A200DC6E13 /* LatestTweetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5556831F03F68000A81EDE /* LatestTweetsTableViewController.swift */; };
+		3AB755411F0572A200DC6E13 /* LatestTweetsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADA18C31F056A8C00D15E8A /* LatestTweetsTableViewController.xib */; };
+		3AB755421F0572A200DC6E13 /* LatestTweetHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C77F01F045D5200AA02BE /* LatestTweetHeader.swift */; };
+		3AB755431F0572A200DC6E13 /* LatestTweetHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9C77F21F045D5C00AA02BE /* LatestTweetHeader.xib */; };
+		3AB755441F0572A200DC6E13 /* DefaultNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA18BF1F0565FE00D15E8A /* DefaultNavigationController.swift */; };
+		3AB755451F0572A400DC6E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AD1AF1F03CF9800AD1043 /* AppDelegate.swift */; };
+		3AB7554D1F0578ED00DC6E13 /* TestableStreamingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA18C81F056F3400D15E8A /* TestableStreamingService.swift */; };
+		3AB7554E1F05791700DC6E13 /* TestableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA18CD1F05719700D15E8A /* TestableModels.swift */; };
+		3AB755501F057C6D00DC6E13 /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB7554F1F057C6D00DC6E13 /* AppUITests.swift */; };
+		3AB755521F057EB100DC6E13 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3AB755511F057EB100DC6E13 /* README.md */; };
+		3AB8C2C31F0591A000143E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3AD1B31F03CF9800AD1043 /* Main.storyboard */; };
+		3AB8C2C41F0591A300143E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3AD1B81F03CF9800AD1043 /* LaunchScreen.storyboard */; };
+		3ACB28661F03E06300CE066D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACB28651F03E06300CE066D /* Tweet.swift */; };
+		3ACB28681F03E0C300CE066D /* FixedSizeQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACB28671F03E0C300CE066D /* FixedSizeQueue.swift */; };
+		3AD9DF261F03F80600999AFF /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD9DF251F03F80600999AFF /* TweetTableViewCell.xib */; };
+		3ADA18C01F0565FE00D15E8A /* DefaultNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA18BF1F0565FE00D15E8A /* DefaultNavigationController.swift */; };
+		3ADA18C41F056A8C00D15E8A /* LatestTweetsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADA18C31F056A8C00D15E8A /* LatestTweetsTableViewController.xib */; };
+		3ADA18C61F056EC900D15E8A /* TweetStreamingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA18C51F056EC900D15E8A /* TweetStreamingService.swift */; };
+		3ADA18C91F056F3400D15E8A /* TestableStreamingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA18C81F056F3400D15E8A /* TestableStreamingService.swift */; };
+		3ADA18CE1F05719700D15E8A /* TestableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA18CD1F05719700D15E8A /* TestableModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A3AD1C11F03CF9800AD1043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3AD1A41F03CF9800AD1043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3AD1AB1F03CF9800AD1043;
+			remoteInfo = Twitterer;
+		};
+		3A3AD1CC1F03CF9800AD1043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3AD1A41F03CF9800AD1043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3AD1AB1F03CF9800AD1043;
+			remoteInfo = Twitterer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A3AD1AC1F03CF9800AD1043 /* Twitterer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitterer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3AD1AF1F03CF9800AD1043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A3AD1B41F03CF9800AD1043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A3AD1B61F03CF9800AD1043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A3AD1B91F03CF9800AD1043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A3AD1BB1F03CF9800AD1043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3AD1C01F03CF9800AD1043 /* TwittererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwittererTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3AD1C41F03CF9800AD1043 /* FixedSizeQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeQueueTests.swift; sourceTree = "<group>"; };
+		3A3AD1C61F03CF9800AD1043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3AD1CB1F03CF9800AD1043 /* TwittererUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwittererUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3AD1CF1F03CF9800AD1043 /* LatestTweetsTableViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestTweetsTableViewControllerUITests.swift; sourceTree = "<group>"; };
+		3A3AD1D11F03CF9800AD1043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3AD1DD1F03D06E00AD1043 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A3AD1E21F03D2E000AD1043 /* Data++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data++.swift"; sourceTree = "<group>"; };
+		3A3AD1E31F03D2E000AD1043 /* Dictionary++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary++.swift"; sourceTree = "<group>"; };
+		3A3AD1E41F03D2E000AD1043 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		3A3AD1E51F03D2E000AD1043 /* Int++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int++.swift"; sourceTree = "<group>"; };
+		3A3AD1E61F03D2E000AD1043 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		3A3AD1E71F03D2E000AD1043 /* Operator++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator++.swift"; sourceTree = "<group>"; };
+		3A3AD1E81F03D2E000AD1043 /* Scanner++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scanner++.swift"; sourceTree = "<group>"; };
+		3A3AD1E91F03D2E000AD1043 /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		3A3AD1EA1F03D2E000AD1043 /* String++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String++.swift"; sourceTree = "<group>"; };
+		3A3AD1EB1F03D2E000AD1043 /* Swifter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swifter.h; sourceTree = "<group>"; };
+		3A3AD1EC1F03D2E000AD1043 /* Swifter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifter.swift; sourceTree = "<group>"; };
+		3A3AD1ED1F03D2E000AD1043 /* SwifterAccountsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterAccountsClient.swift; sourceTree = "<group>"; };
+		3A3AD1EE1F03D2E000AD1043 /* SwifterAppOnlyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterAppOnlyClient.swift; sourceTree = "<group>"; };
+		3A3AD1EF1F03D2E000AD1043 /* SwifterAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterAuth.swift; sourceTree = "<group>"; };
+		3A3AD1F01F03D2E000AD1043 /* SwifterClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterClientProtocol.swift; sourceTree = "<group>"; };
+		3A3AD1F11F03D2E000AD1043 /* SwifterCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterCredential.swift; sourceTree = "<group>"; };
+		3A3AD1F21F03D2E000AD1043 /* SwifterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterError.swift; sourceTree = "<group>"; };
+		3A3AD1F31F03D2E000AD1043 /* SwifterFavorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterFavorites.swift; sourceTree = "<group>"; };
+		3A3AD1F41F03D2E000AD1043 /* SwifterFollowers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterFollowers.swift; sourceTree = "<group>"; };
+		3A3AD1F51F03D2E000AD1043 /* SwifterHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterHelp.swift; sourceTree = "<group>"; };
+		3A3AD1F61F03D2E000AD1043 /* SwifterHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterHTTPRequest.swift; sourceTree = "<group>"; };
+		3A3AD1F71F03D2E000AD1043 /* SwifterLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterLists.swift; sourceTree = "<group>"; };
+		3A3AD1F81F03D2E000AD1043 /* SwifterMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterMessages.swift; sourceTree = "<group>"; };
+		3A3AD1F91F03D2E000AD1043 /* SwifterOAuthClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterOAuthClient.swift; sourceTree = "<group>"; };
+		3A3AD1FA1F03D2E000AD1043 /* SwifterPlaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterPlaces.swift; sourceTree = "<group>"; };
+		3A3AD1FB1F03D2E000AD1043 /* SwifterSavedSearches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSavedSearches.swift; sourceTree = "<group>"; };
+		3A3AD1FC1F03D2E000AD1043 /* SwifterSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSearch.swift; sourceTree = "<group>"; };
+		3A3AD1FD1F03D2E000AD1043 /* SwifterSpam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSpam.swift; sourceTree = "<group>"; };
+		3A3AD1FE1F03D2E000AD1043 /* SwifterStreaming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterStreaming.swift; sourceTree = "<group>"; };
+		3A3AD1FF1F03D2E000AD1043 /* SwifterSuggested.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSuggested.swift; sourceTree = "<group>"; };
+		3A3AD2001F03D2E000AD1043 /* SwifterTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterTag.swift; sourceTree = "<group>"; };
+		3A3AD2011F03D2E000AD1043 /* SwifterTimelines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterTimelines.swift; sourceTree = "<group>"; };
+		3A3AD2021F03D2E000AD1043 /* SwifterTrends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterTrends.swift; sourceTree = "<group>"; };
+		3A3AD2031F03D2E000AD1043 /* SwifterTweets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterTweets.swift; sourceTree = "<group>"; };
+		3A3AD2041F03D2E000AD1043 /* SwifterUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterUsers.swift; sourceTree = "<group>"; };
+		3A3AD2051F03D2E000AD1043 /* URL++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL++.swift"; sourceTree = "<group>"; };
+		3A3AD2061F03D2E000AD1043 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3A4D11AE1F04371700632F8B /* TwitterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterService.swift; sourceTree = "<group>"; };
+		3A55567C1F03F59F00A81EDE /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		3A55567E1F03F5D700A81EDE /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		3A5556831F03F68000A81EDE /* LatestTweetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestTweetsTableViewController.swift; sourceTree = "<group>"; };
+		3A5556851F03F6BE00A81EDE /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		3A9C77F01F045D5200AA02BE /* LatestTweetHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestTweetHeader.swift; sourceTree = "<group>"; };
+		3A9C77F21F045D5C00AA02BE /* LatestTweetHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LatestTweetHeader.xib; sourceTree = "<group>"; };
+		3A9C77F41F0461E900AA02BE /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		3AB7554F1F057C6D00DC6E13 /* AppUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
+		3AB755511F057EB100DC6E13 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3ACB28651F03E06300CE066D /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		3ACB28671F03E0C300CE066D /* FixedSizeQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedSizeQueue.swift; sourceTree = "<group>"; };
+		3AD9DF251F03F80600999AFF /* TweetTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetTableViewCell.xib; sourceTree = "<group>"; };
+		3ADA18BF1F0565FE00D15E8A /* DefaultNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultNavigationController.swift; sourceTree = "<group>"; };
+		3ADA18C31F056A8C00D15E8A /* LatestTweetsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LatestTweetsTableViewController.xib; sourceTree = "<group>"; };
+		3ADA18C51F056EC900D15E8A /* TweetStreamingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetStreamingService.swift; sourceTree = "<group>"; };
+		3ADA18C81F056F3400D15E8A /* TestableStreamingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestableStreamingService.swift; sourceTree = "<group>"; };
+		3ADA18CD1F05719700D15E8A /* TestableModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestableModels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A3AD1A91F03CF9800AD1043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3AD1BD1F03CF9800AD1043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3AD1C81F03CF9800AD1043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3AD1A31F03CF9800AD1043 = {
+			isa = PBXGroup;
+			children = (
+				3AB755511F057EB100DC6E13 /* README.md */,
+				3A3AD1AE1F03CF9800AD1043 /* Twitterer */,
+				3A3AD1C31F03CF9800AD1043 /* TwittererTests */,
+				3A3AD1CE1F03CF9800AD1043 /* TwittererUITests */,
+				3A3AD1AD1F03CF9800AD1043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A3AD1AD1F03CF9800AD1043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A3AD1AC1F03CF9800AD1043 /* Twitterer.app */,
+				3A3AD1C01F03CF9800AD1043 /* TwittererTests.xctest */,
+				3A3AD1CB1F03CF9800AD1043 /* TwittererUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A3AD1AE1F03CF9800AD1043 /* Twitterer */ = {
+			isa = PBXGroup;
+			children = (
+				3A55567B1F03F58D00A81EDE /* Extensions */,
+				3AD9DF241F03F75900999AFF /* Misc */,
+				3A5556871F03F6ED00A81EDE /* Models */,
+				3A3AD1DF1F03D26400AD1043 /* Swifter */,
+				3A5556801F03F63E00A81EDE /* Views */,
+				3A3AD1BB1F03CF9800AD1043 /* Info.plist */,
+				3A3AD1AF1F03CF9800AD1043 /* AppDelegate.swift */,
+				3A3AD1B61F03CF9800AD1043 /* Assets.xcassets */,
+				3A3AD1B81F03CF9800AD1043 /* LaunchScreen.storyboard */,
+				3A3AD1B31F03CF9800AD1043 /* Main.storyboard */,
+			);
+			path = Twitterer;
+			sourceTree = "<group>";
+		};
+		3A3AD1C31F03CF9800AD1043 /* TwittererTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3AD1C41F03CF9800AD1043 /* FixedSizeQueueTests.swift */,
+				3A3AD1C61F03CF9800AD1043 /* Info.plist */,
+			);
+			path = TwittererTests;
+			sourceTree = "<group>";
+		};
+		3A3AD1CE1F03CF9800AD1043 /* TwittererUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3AD1CF1F03CF9800AD1043 /* LatestTweetsTableViewControllerUITests.swift */,
+				3AB7554F1F057C6D00DC6E13 /* AppUITests.swift */,
+				3ADA18C81F056F3400D15E8A /* TestableStreamingService.swift */,
+				3ADA18CD1F05719700D15E8A /* TestableModels.swift */,
+				3A3AD1D11F03CF9800AD1043 /* Info.plist */,
+			);
+			path = TwittererUITests;
+			sourceTree = "<group>";
+		};
+		3A3AD1DF1F03D26400AD1043 /* Swifter */ = {
+			isa = PBXGroup;
+			children = (
+				3A3AD1E21F03D2E000AD1043 /* Data++.swift */,
+				3A3AD1E31F03D2E000AD1043 /* Dictionary++.swift */,
+				3A3AD1E41F03D2E000AD1043 /* HMAC.swift */,
+				3A3AD1E51F03D2E000AD1043 /* Int++.swift */,
+				3A3AD1E61F03D2E000AD1043 /* JSON.swift */,
+				3A3AD1E71F03D2E000AD1043 /* Operator++.swift */,
+				3A3AD1E81F03D2E000AD1043 /* Scanner++.swift */,
+				3A3AD1E91F03D2E000AD1043 /* SHA1.swift */,
+				3A3AD1EA1F03D2E000AD1043 /* String++.swift */,
+				3A3AD1EB1F03D2E000AD1043 /* Swifter.h */,
+				3A3AD1EC1F03D2E000AD1043 /* Swifter.swift */,
+				3A3AD1ED1F03D2E000AD1043 /* SwifterAccountsClient.swift */,
+				3A3AD1EE1F03D2E000AD1043 /* SwifterAppOnlyClient.swift */,
+				3A3AD1EF1F03D2E000AD1043 /* SwifterAuth.swift */,
+				3A3AD1F01F03D2E000AD1043 /* SwifterClientProtocol.swift */,
+				3A3AD1F11F03D2E000AD1043 /* SwifterCredential.swift */,
+				3A3AD1F21F03D2E000AD1043 /* SwifterError.swift */,
+				3A3AD1F31F03D2E000AD1043 /* SwifterFavorites.swift */,
+				3A3AD1F41F03D2E000AD1043 /* SwifterFollowers.swift */,
+				3A3AD1F51F03D2E000AD1043 /* SwifterHelp.swift */,
+				3A3AD1F61F03D2E000AD1043 /* SwifterHTTPRequest.swift */,
+				3A3AD1F71F03D2E000AD1043 /* SwifterLists.swift */,
+				3A3AD1F81F03D2E000AD1043 /* SwifterMessages.swift */,
+				3A3AD1F91F03D2E000AD1043 /* SwifterOAuthClient.swift */,
+				3A3AD1FA1F03D2E000AD1043 /* SwifterPlaces.swift */,
+				3A3AD1FB1F03D2E000AD1043 /* SwifterSavedSearches.swift */,
+				3A3AD1FC1F03D2E000AD1043 /* SwifterSearch.swift */,
+				3A3AD1FD1F03D2E000AD1043 /* SwifterSpam.swift */,
+				3A3AD1FE1F03D2E000AD1043 /* SwifterStreaming.swift */,
+				3A3AD1FF1F03D2E000AD1043 /* SwifterSuggested.swift */,
+				3A3AD2001F03D2E000AD1043 /* SwifterTag.swift */,
+				3A3AD2011F03D2E000AD1043 /* SwifterTimelines.swift */,
+				3A3AD2021F03D2E000AD1043 /* SwifterTrends.swift */,
+				3A3AD2031F03D2E000AD1043 /* SwifterTweets.swift */,
+				3A3AD2041F03D2E000AD1043 /* SwifterUsers.swift */,
+				3A3AD2051F03D2E000AD1043 /* URL++.swift */,
+				3A3AD2061F03D2E000AD1043 /* Utils.swift */,
+			);
+			path = Swifter;
+			sourceTree = "<group>";
+		};
+		3A55567B1F03F58D00A81EDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A55567C1F03F59F00A81EDE /* UITableView.swift */,
+				3A55567E1F03F5D700A81EDE /* NibLoadable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A5556801F03F63E00A81EDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A5556811F03F64A00A81EDE /* Latest Tweets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A5556811F03F64A00A81EDE /* Latest Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				3A5556821F03F65900A81EDE /* Cells */,
+				3ADA18BF1F0565FE00D15E8A /* DefaultNavigationController.swift */,
+				3A9C77F01F045D5200AA02BE /* LatestTweetHeader.swift */,
+				3A9C77F21F045D5C00AA02BE /* LatestTweetHeader.xib */,
+				3A5556831F03F68000A81EDE /* LatestTweetsTableViewController.swift */,
+				3ADA18C31F056A8C00D15E8A /* LatestTweetsTableViewController.xib */,
+			);
+			path = "Latest Tweets";
+			sourceTree = "<group>";
+		};
+		3A5556821F03F65900A81EDE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A5556851F03F6BE00A81EDE /* TweetTableViewCell.swift */,
+				3AD9DF251F03F80600999AFF /* TweetTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3A5556871F03F6ED00A81EDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3ACB28651F03E06300CE066D /* Tweet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AD9DF241F03F75900999AFF /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				3ACB28671F03E0C300CE066D /* FixedSizeQueue.swift */,
+				3A9C77F41F0461E900AA02BE /* Queue.swift */,
+				3A3AD1DD1F03D06E00AD1043 /* Constants.swift */,
+				3A4D11AE1F04371700632F8B /* TwitterService.swift */,
+				3ADA18C51F056EC900D15E8A /* TweetStreamingService.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A3AD1AB1F03CF9800AD1043 /* Twitterer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3AD1D41F03CF9800AD1043 /* Build configuration list for PBXNativeTarget "Twitterer" */;
+			buildPhases = (
+				3A3AD1A81F03CF9800AD1043 /* Sources */,
+				3A3AD1A91F03CF9800AD1043 /* Frameworks */,
+				3A3AD1AA1F03CF9800AD1043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twitterer;
+			productName = Twitterer;
+			productReference = 3A3AD1AC1F03CF9800AD1043 /* Twitterer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A3AD1BF1F03CF9800AD1043 /* TwittererTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3AD1D71F03CF9800AD1043 /* Build configuration list for PBXNativeTarget "TwittererTests" */;
+			buildPhases = (
+				3A3AD1BC1F03CF9800AD1043 /* Sources */,
+				3A3AD1BD1F03CF9800AD1043 /* Frameworks */,
+				3A3AD1BE1F03CF9800AD1043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3AD1C21F03CF9800AD1043 /* PBXTargetDependency */,
+			);
+			name = TwittererTests;
+			productName = TwittererTests;
+			productReference = 3A3AD1C01F03CF9800AD1043 /* TwittererTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A3AD1CA1F03CF9800AD1043 /* TwittererUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3AD1DA1F03CF9800AD1043 /* Build configuration list for PBXNativeTarget "TwittererUITests" */;
+			buildPhases = (
+				3A3AD1C71F03CF9800AD1043 /* Sources */,
+				3A3AD1C81F03CF9800AD1043 /* Frameworks */,
+				3A3AD1C91F03CF9800AD1043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3AD1CD1F03CF9800AD1043 /* PBXTargetDependency */,
+			);
+			name = TwittererUITests;
+			productName = TwittererUITests;
+			productReference = 3A3AD1CB1F03CF9800AD1043 /* TwittererUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3AD1A41F03CF9800AD1043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = stefano;
+				TargetAttributes = {
+					3A3AD1AB1F03CF9800AD1043 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Manual;
+					};
+					3A3AD1BF1F03CF9800AD1043 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Manual;
+						TestTargetID = 3A3AD1AB1F03CF9800AD1043;
+					};
+					3A3AD1CA1F03CF9800AD1043 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A3AD1AB1F03CF9800AD1043;
+					};
+				};
+			};
+			buildConfigurationList = 3A3AD1A71F03CF9800AD1043 /* Build configuration list for PBXProject "Twitterer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3AD1A31F03CF9800AD1043;
+			productRefGroup = 3A3AD1AD1F03CF9800AD1043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A3AD1AB1F03CF9800AD1043 /* Twitterer */,
+				3A3AD1BF1F03CF9800AD1043 /* TwittererTests */,
+				3A3AD1CA1F03CF9800AD1043 /* TwittererUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A3AD1AA1F03CF9800AD1043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3AD1BA1F03CF9800AD1043 /* LaunchScreen.storyboard in Resources */,
+				3A9C77F61F04660000AA02BE /* LatestTweetHeader.xib in Resources */,
+				3ADA18C41F056A8C00D15E8A /* LatestTweetsTableViewController.xib in Resources */,
+				3A3AD1B71F03CF9800AD1043 /* Assets.xcassets in Resources */,
+				3A3AD1B51F03CF9800AD1043 /* Main.storyboard in Resources */,
+				3AD9DF261F03F80600999AFF /* TweetTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3AD1BE1F03CF9800AD1043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3AD1C91F03CF9800AD1043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB755431F0572A200DC6E13 /* LatestTweetHeader.xib in Resources */,
+				3AB755411F0572A200DC6E13 /* LatestTweetsTableViewController.xib in Resources */,
+				3AB7553F1F0572A200DC6E13 /* TweetTableViewCell.xib in Resources */,
+				3AB8C2C41F0591A300143E59 /* LaunchScreen.storyboard in Resources */,
+				3AB8C2C31F0591A000143E59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3AD1A81F03CF9800AD1043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3AD2191F03D2E000AD1043 /* SwifterFollowers.swift in Sources */,
+				3A3AD21F1F03D2E000AD1043 /* SwifterPlaces.swift in Sources */,
+				3A3AD2251F03D2E000AD1043 /* SwifterTag.swift in Sources */,
+				3A3AD20D1F03D2E000AD1043 /* Operator++.swift in Sources */,
+				3ACB28681F03E0C300CE066D /* FixedSizeQueue.swift in Sources */,
+				3A3AD20F1F03D2E000AD1043 /* SHA1.swift in Sources */,
+				3A4D11AF1F04371700632F8B /* TwitterService.swift in Sources */,
+				3A3AD2181F03D2E000AD1043 /* SwifterFavorites.swift in Sources */,
+				3ADA18C61F056EC900D15E8A /* TweetStreamingService.swift in Sources */,
+				3A3AD2171F03D2E000AD1043 /* SwifterError.swift in Sources */,
+				3A5556841F03F68000A81EDE /* LatestTweetsTableViewController.swift in Sources */,
+				3A3AD21D1F03D2E000AD1043 /* SwifterMessages.swift in Sources */,
+				3A3AD2211F03D2E000AD1043 /* SwifterSearch.swift in Sources */,
+				3A3AD2271F03D2E000AD1043 /* SwifterTrends.swift in Sources */,
+				3A3AD21C1F03D2E000AD1043 /* SwifterLists.swift in Sources */,
+				3A3AD2261F03D2E000AD1043 /* SwifterTimelines.swift in Sources */,
+				3A9C77F11F045D5200AA02BE /* LatestTweetHeader.swift in Sources */,
+				3A3AD22A1F03D2E000AD1043 /* URL++.swift in Sources */,
+				3A3AD2091F03D2E000AD1043 /* Dictionary++.swift in Sources */,
+				3A3AD22B1F03D2E000AD1043 /* Utils.swift in Sources */,
+				3A3AD2281F03D2E000AD1043 /* SwifterTweets.swift in Sources */,
+				3A3AD2241F03D2E000AD1043 /* SwifterSuggested.swift in Sources */,
+				3A3AD2101F03D2E000AD1043 /* String++.swift in Sources */,
+				3A3AD2291F03D2E000AD1043 /* SwifterUsers.swift in Sources */,
+				3A3AD2151F03D2E000AD1043 /* SwifterClientProtocol.swift in Sources */,
+				3A3AD2121F03D2E000AD1043 /* SwifterAccountsClient.swift in Sources */,
+				3A3AD20E1F03D2E000AD1043 /* Scanner++.swift in Sources */,
+				3A3AD1B01F03CF9800AD1043 /* AppDelegate.swift in Sources */,
+				3A55567F1F03F5D700A81EDE /* NibLoadable.swift in Sources */,
+				3A3AD20C1F03D2E000AD1043 /* JSON.swift in Sources */,
+				3A3AD2081F03D2E000AD1043 /* Data++.swift in Sources */,
+				3A3AD1DE1F03D06E00AD1043 /* Constants.swift in Sources */,
+				3ADA18C01F0565FE00D15E8A /* DefaultNavigationController.swift in Sources */,
+				3A3AD2201F03D2E000AD1043 /* SwifterSavedSearches.swift in Sources */,
+				3A3AD2141F03D2E000AD1043 /* SwifterAuth.swift in Sources */,
+				3A3AD21B1F03D2E000AD1043 /* SwifterHTTPRequest.swift in Sources */,
+				3A3AD2131F03D2E000AD1043 /* SwifterAppOnlyClient.swift in Sources */,
+				3ACB28661F03E06300CE066D /* Tweet.swift in Sources */,
+				3A3AD20A1F03D2E000AD1043 /* HMAC.swift in Sources */,
+				3A3AD2221F03D2E000AD1043 /* SwifterSpam.swift in Sources */,
+				3A3AD2111F03D2E000AD1043 /* Swifter.swift in Sources */,
+				3A5556861F03F6BE00A81EDE /* TweetTableViewCell.swift in Sources */,
+				3A3AD21E1F03D2E000AD1043 /* SwifterOAuthClient.swift in Sources */,
+				3A3AD2161F03D2E000AD1043 /* SwifterCredential.swift in Sources */,
+				3AB7554D1F0578ED00DC6E13 /* TestableStreamingService.swift in Sources */,
+				3AB7554E1F05791700DC6E13 /* TestableModels.swift in Sources */,
+				3A3AD20B1F03D2E000AD1043 /* Int++.swift in Sources */,
+				3A3AD21A1F03D2E000AD1043 /* SwifterHelp.swift in Sources */,
+				3A3AD2231F03D2E000AD1043 /* SwifterStreaming.swift in Sources */,
+				3A9C77F51F0461E900AA02BE /* Queue.swift in Sources */,
+				3A55567D1F03F59F00A81EDE /* UITableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3AD1BC1F03CF9800AD1043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3AD1C51F03CF9800AD1043 /* FixedSizeQueueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3AD1C71F03CF9800AD1043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB7551B1F05729800DC6E13 /* SwifterAccountsClient.swift in Sources */,
+				3AB7553B1F05729B00DC6E13 /* Scanner++.swift in Sources */,
+				3AB7552C1F05729800DC6E13 /* SwifterStreaming.swift in Sources */,
+				3AB7551A1F05729800DC6E13 /* Swifter.swift in Sources */,
+				3AB755221F05729800DC6E13 /* SwifterFollowers.swift in Sources */,
+				3ADA18CE1F05719700D15E8A /* TestableModels.swift in Sources */,
+				3AB755271F05729800DC6E13 /* SwifterOAuthClient.swift in Sources */,
+				3AB755261F05729800DC6E13 /* SwifterMessages.swift in Sources */,
+				3AB755451F0572A400DC6E13 /* AppDelegate.swift in Sources */,
+				3AB7551F1F05729800DC6E13 /* SwifterCredential.swift in Sources */,
+				3AB755371F05729B00DC6E13 /* HMAC.swift in Sources */,
+				3AB755501F057C6D00DC6E13 /* AppUITests.swift in Sources */,
+				3AB7551C1F05729800DC6E13 /* SwifterAppOnlyClient.swift in Sources */,
+				3AB7552B1F05729800DC6E13 /* SwifterSpam.swift in Sources */,
+				3AB755251F05729800DC6E13 /* SwifterLists.swift in Sources */,
+				3AB7552E1F05729800DC6E13 /* SwifterTag.swift in Sources */,
+				3AB755351F05729B00DC6E13 /* Data++.swift in Sources */,
+				3AB755291F05729800DC6E13 /* SwifterSavedSearches.swift in Sources */,
+				3AB755241F05729800DC6E13 /* SwifterHTTPRequest.swift in Sources */,
+				3AB755181F05728C00DC6E13 /* TweetStreamingService.swift in Sources */,
+				3AB755151F05728C00DC6E13 /* Queue.swift in Sources */,
+				3AB755421F0572A200DC6E13 /* LatestTweetHeader.swift in Sources */,
+				3AB755171F05728C00DC6E13 /* TwitterService.swift in Sources */,
+				3AB755381F05729B00DC6E13 /* Int++.swift in Sources */,
+				3AB755341F05729800DC6E13 /* Utils.swift in Sources */,
+				3AB755121F05728900DC6E13 /* UITableView.swift in Sources */,
+				3AB7552D1F05729800DC6E13 /* SwifterSuggested.swift in Sources */,
+				3AB755321F05729800DC6E13 /* SwifterUsers.swift in Sources */,
+				3AB755391F05729B00DC6E13 /* JSON.swift in Sources */,
+				3AB755311F05729800DC6E13 /* SwifterTweets.swift in Sources */,
+				3AB755281F05729800DC6E13 /* SwifterPlaces.swift in Sources */,
+				3AB7553D1F05729B00DC6E13 /* String++.swift in Sources */,
+				3AB755201F05729800DC6E13 /* SwifterError.swift in Sources */,
+				3A3AD1D01F03CF9800AD1043 /* LatestTweetsTableViewControllerUITests.swift in Sources */,
+				3AB755331F05729800DC6E13 /* URL++.swift in Sources */,
+				3AB755131F05728900DC6E13 /* NibLoadable.swift in Sources */,
+				3AB7553C1F05729B00DC6E13 /* SHA1.swift in Sources */,
+				3ADA18C91F056F3400D15E8A /* TestableStreamingService.swift in Sources */,
+				3AB755401F0572A200DC6E13 /* LatestTweetsTableViewController.swift in Sources */,
+				3AB755301F05729800DC6E13 /* SwifterTrends.swift in Sources */,
+				3AB7552A1F05729800DC6E13 /* SwifterSearch.swift in Sources */,
+				3AB7551E1F05729800DC6E13 /* SwifterClientProtocol.swift in Sources */,
+				3AB755521F057EB100DC6E13 /* README.md in Sources */,
+				3AB755141F05728C00DC6E13 /* FixedSizeQueue.swift in Sources */,
+				3AB755361F05729B00DC6E13 /* Dictionary++.swift in Sources */,
+				3AB7551D1F05729800DC6E13 /* SwifterAuth.swift in Sources */,
+				3AB755161F05728C00DC6E13 /* Constants.swift in Sources */,
+				3AB755191F05728E00DC6E13 /* Tweet.swift in Sources */,
+				3AB755211F05729800DC6E13 /* SwifterFavorites.swift in Sources */,
+				3AB7553A1F05729B00DC6E13 /* Operator++.swift in Sources */,
+				3AB755231F05729800DC6E13 /* SwifterHelp.swift in Sources */,
+				3AB7552F1F05729800DC6E13 /* SwifterTimelines.swift in Sources */,
+				3AB755441F0572A200DC6E13 /* DefaultNavigationController.swift in Sources */,
+				3AB7553E1F0572A200DC6E13 /* TweetTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3AD1C21F03CF9800AD1043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3AD1AB1F03CF9800AD1043 /* Twitterer */;
+			targetProxy = 3A3AD1C11F03CF9800AD1043 /* PBXContainerItemProxy */;
+		};
+		3A3AD1CD1F03CF9800AD1043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3AD1AB1F03CF9800AD1043 /* Twitterer */;
+			targetProxy = 3A3AD1CC1F03CF9800AD1043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A3AD1B31F03CF9800AD1043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3AD1B41F03CF9800AD1043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A3AD1B81F03CF9800AD1043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3AD1B91F03CF9800AD1043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A3AD1D21F03CF9800AD1043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A3AD1D31F03CF9800AD1043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A3AD1D51F03CF9800AD1043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Twitterer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.Twitterer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3A3AD1D61F03CF9800AD1043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Twitterer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.Twitterer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		3A3AD1D81F03CF9800AD1043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TwittererTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.TwittererTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitterer.app/Twitterer";
+			};
+			name = Debug;
+		};
+		3A3AD1D91F03CF9800AD1043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TwittererTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.TwittererTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitterer.app/Twitterer";
+			};
+			name = Release;
+		};
+		3A3AD1DB1F03CF9800AD1043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TwittererUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.TwittererUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Twitterer;
+			};
+			name = Debug;
+		};
+		3A3AD1DC1F03CF9800AD1043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TwittererUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.TwittererUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Twitterer;
+			};
+			name = Release;
+		};
+		3AB755481F05784700DC6E13 /* UITest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D UITEST";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UITest;
+		};
+		3AB755491F05784700DC6E13 /* UITest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Twitterer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.Twitterer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = UITest;
+		};
+		3AB7554A1F05784700DC6E13 /* UITest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TwittererTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.TwittererTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitterer.app/Twitterer";
+			};
+			name = UITest;
+		};
+		3AB7554B1F05784700DC6E13 /* UITest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TwittererUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.test.TwittererUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Twitterer;
+			};
+			name = UITest;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3AD1A71F03CF9800AD1043 /* Build configuration list for PBXProject "Twitterer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3AD1D21F03CF9800AD1043 /* Debug */,
+				3AB755481F05784700DC6E13 /* UITest */,
+				3A3AD1D31F03CF9800AD1043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3AD1D41F03CF9800AD1043 /* Build configuration list for PBXNativeTarget "Twitterer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3AD1D51F03CF9800AD1043 /* Debug */,
+				3AB755491F05784700DC6E13 /* UITest */,
+				3A3AD1D61F03CF9800AD1043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3AD1D71F03CF9800AD1043 /* Build configuration list for PBXNativeTarget "TwittererTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3AD1D81F03CF9800AD1043 /* Debug */,
+				3AB7554A1F05784700DC6E13 /* UITest */,
+				3A3AD1D91F03CF9800AD1043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3AD1DA1F03CF9800AD1043 /* Build configuration list for PBXNativeTarget "TwittererUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3AD1DB1F03CF9800AD1043 /* Debug */,
+				3AB7554B1F05784700DC6E13 /* UITest */,
+				3A3AD1DC1F03CF9800AD1043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A3AD1A41F03CF9800AD1043 /* Project object */;
+}
